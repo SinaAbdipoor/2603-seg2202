@@ -18,9 +18,9 @@ Follow these instructions to set up your own personal version of this repository
 
 You need to create your own copy of this repository so that you can work on it independently. You must create a separate entity so that your pushes go to your own account and not to the instructor's repository.
 
-1.  **Clone this repository** to your local machine using the URL provided on the GitHub page (Green "Code" button).
+1.  **Clone this repository** to your local machine.
     ```bash
-    git clone <URL-OF-THIS-REPO>
+    git clone https://github.com/SinaAbdipoor/2603-seg2202
     cd 2603-seg2202
     ```
 
@@ -38,6 +38,7 @@ You need to create your own copy of this repository so that you can work on it i
     git remote add origin https://github.com/YOUR-USERNAME/YOUR-NEW-REPO-NAME.git
 
     # Push the code to your new repository
+    # (Note: If your default branch is 'master', replace 'main' with 'master')
     git push -u origin main
     ```
 
